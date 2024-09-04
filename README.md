@@ -1,8 +1,10 @@
 # EX-NO : 2 DATA SCIENCE
 # AIM:
+
 To perform Exploratory Data Analysis on the given data set.
       
 # EXPLANATION:
+
 The primary aim with exploratory analysis is to examine the data for distribution, outliers and anomalies to direct specific testing of your hypothesis.
   
 # ALGORITHM:
@@ -51,6 +53,9 @@ df.set_index("PassengerId",inplace=True)
 df.describe()
 ```
 ![image](https://github.com/user-attachments/assets/cb16ad91-5117-456d-b8f5-24056e00069a)
+
+
+## Categorical data analysis
 ```
 df.nunique()
 ```
@@ -163,4 +168,4 @@ sns.pairplot(df)
 
 
 # RESULT
- We have performed Exploratory Data Analysis on the given data set successfully
+ We have performed Exploratory Data Analysis on the given data set successfully.
